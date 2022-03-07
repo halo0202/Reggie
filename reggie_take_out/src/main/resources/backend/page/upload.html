@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>需求：上传美女图文件需求</title>
+</head>
+<body>
+
+           <form method="post" enctype="multipart/form-data"  action="/common/upload">
+               <input type="file"  name="uploadFile"><!--文件-->
+               <input type="text"  name="abc"><!--文本-->
+               <input type="submit" value="文件上传">
+           </form>
+
+           <hr></hr>
+
+           <form method="post" enctype="multipart/form-data"  action="/common/uploads">
+               <input type="file"  name="uploadFiles"><!--文件-->
+               <input type="file"  name="uploadFiles"><!--文件-->
+               <input type="file"  name="uploadFiles"><!--文件-->
+               <input type="file"  name="uploadFiles"><!--文件-->
+               <input type="text"  name="abc"><!--文本-->
+               <input type="submit" value="文件上传">
+           </form>
+
+</body>
+</html>
